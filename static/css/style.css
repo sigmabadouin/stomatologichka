@@ -36,3 +36,14 @@ ul {
     padding-left: 30px;
 }
 
+.h2 {        /*тоже какое-то смещение*/
+    text-align: center;
+    padding:5px;
+    margin-right:80px;
+
+}
+
+.bias {            /*Смещение*/
+        padding:-100px;
+        margin-right:10px;
+}
