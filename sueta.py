@@ -7,9 +7,6 @@ def mainpage():
     return render_template('mainpage.html')
 
 
-@app.route('/uslugi')
-def uslugi():
-    return render_template('mainpage.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
