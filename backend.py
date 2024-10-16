@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/mainpage")
 @app.route("/")
-def mainpage():
+def index():
     return render_template('index.html')
 
 
@@ -16,7 +16,7 @@ def usluga1():
 def usluga2():
     return render_template('usuluga2.html')
 
-    
+
 
 if __name__ == '__main__':
         app.run(debug=True)
