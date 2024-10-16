@@ -16,7 +16,9 @@ def usluga1():
 def usluga2():
     return render_template('usluga2.html')
 
-
+@app.route("/usluga3")
+def usluga3():
+    return render_template('usluga3.html')
 
 if __name__ == '__main__':
         app.run(debug=True)
