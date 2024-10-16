@@ -11,7 +11,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 15px;
+    
 }
 
 .nav-left, .nav-right {
@@ -27,3 +27,8 @@ nav {
 .nav-right {
     margin-left: auto; /* Отодвигает правую часть до конца */
 }   
+
+
+.phone-number {
+    margin-left: 15px;
+}
