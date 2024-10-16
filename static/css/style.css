@@ -11,7 +11,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 15px;
     padding: 10px;
     
 }
@@ -28,5 +27,4 @@ nav {
 
 .nav-right {
     margin-left: auto; /* Отодвигает правую часть до конца */
-    margin-left: -50px;
 }   
