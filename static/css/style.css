@@ -12,11 +12,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding-left: 15px;
+    padding: 150px;
     
-}
-
-.nav-left {
-    padding-left: 15px;
 }
 
 .nav-left, .nav-right {
