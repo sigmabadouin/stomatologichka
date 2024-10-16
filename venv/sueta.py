@@ -4,14 +4,14 @@ app = Flask(__name__)
 
 @app.route('/')
 def mainpage():
-    return render_template('normfail.html')
+    return render_template('main.html')
 
 @app.route('/index')
 def normfail():
-    return render_template('normfail.html')
+    return render_template('main.html')
 
 @app.route('/pultimos')
-def normfail():
+def idealfile():
     return render_template('normfail.html')
 
 if __name__ == "__main__":
