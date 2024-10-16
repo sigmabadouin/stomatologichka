@@ -13,7 +13,16 @@ nav {
     justify-content: space-between;
 }
 
-nav ul li {
-    display: inline; /* Выравниваем элементы списка по горизонтали */
-    margin: 0 15px; /* Отступы между элементами */
+.nav-left, .nav-right {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы */
+    display: flex; /* Выравниваем элементы списка по горизонтали */
+}
+
+.nav-left li, .nav-right li {
+    margin: 0 15 px; /* Отступы между элементами */
+}
+
+.nav-right {
+    margin-left: auto; /* Отодвигает правую часть до конца */
 }
