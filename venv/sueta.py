@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def mainpage():
-    return render_template('main.html')
+    return render_template('legenda.html')
 
 @app.route('/index')
 def normfail():
