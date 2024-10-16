@@ -29,8 +29,6 @@ nav {
     list-style-type: none; /* Убираем маркеры списка */
     padding: 0; /* Убираем внутренние отступы */
     display: flex; /* Выравниваем элементы списка по горизонтали */
+    margin-left: -1000px;
 }
 
-.nav-right li {
-    margin-left: 1055px;
-}
