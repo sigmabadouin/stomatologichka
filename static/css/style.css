@@ -1,21 +1,5 @@
 /* Стиль для главной страницы(шапка и т.п)*/
 
-.text-center {
-    text-align: center
-}
-
-.text-left {
-    text-align: left
-}
-
-.text-center {
-    text-align: right
-}
-
-.text-justify {
-    text-align: justify
-}
-
 body {
     background-color: white;
 }
