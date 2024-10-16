@@ -4,15 +4,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def mainpage():
-    return render_template('legenda.html')
-
-@app.route('/index')
-def normfail():
-    return render_template('main.html')
-
-@app.route('/pultimos')
-def idealfile():
     return render_template('normfail.html')
+
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
