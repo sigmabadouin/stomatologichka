@@ -11,7 +11,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px;
+    padding: 10px;
     
 }
 
@@ -20,6 +20,7 @@ nav {
     padding: 0; /* Убираем внутренние отступы */
     display: flex; /* Выравниваем элементы списка по горизонтали */
 }
+
 
 
 .nav-right {
