@@ -20,5 +20,18 @@ def usluga2():
 def usluga3():
     return render_template('usluga3.html')
 
+@app.route("/nashi_uslugi")
+def uslugi():
+    return render_template('nashi_uslugi.html')
+
+@app.route("/price_list")
+def price_list():
+    return render_template('price_list.html')
+
+@app.route("/specialists")
+def specialists():
+    return render_template('specialists.html')
+
+
 if __name__ == '__main__':
         app.run(debug=True)

@@ -12,6 +12,17 @@
         <ul class="nav-left">
             <li><a href="{{ url_for('index') }}">Для Вас</a></li>
         </ul>
+    <nav>
+        <ul class="nav-left">
+            <li><a href="{{ url_for('uslugi') }}">Наши услуги</a></li>
+        </ul>
+        <ul class="nav-left">
+            <li><a href="{{ url_for('price_list') }}">Прайс-лист</a></li>
+        </ul>
+        <ul class="nav-left">
+            <li><a href="{{ url_for('specialists') }}">Специалисты</a></li>
+        </ul>
+    </nav>
         <ul class="nav-right">
             <li><a href="tel:+79271003585">8-927-100-35-85</a></li>
         </ul>
@@ -26,34 +37,5 @@
         Наша команда высококвалифицированных стоматологов и 
         современное оборудование позволяют обеспечивать максимально эффективное и безопасное лечение.</p> <!-- текст про то, какие мы хорошие-->
     </ul>
-        
-        <div class="h2">
-            <h1>Наши услуги:</h1>
-        </div>
-        
-        <ul class="bias">
-            <div class="h2">
-                <a href="{{ url_for('usluga1') }}">
-                    <button type="button" name="услуга1">Терапевтическая стоматология</button>
-                </a>
 
-        </ul>
-        <ul class="bias">
-            <div class="h2">
-                <a href="{{ url_for('usluga2') }}">
-                    <button type="button" name="услуга2">Услуга 2</button>
-                </a>
-        </ul>
-
-        <ul class="bias">
-            <div class="h2">
-                <a href="{{ url_for('usluga3') }}">
-                    <button type="button" name="услуга3">Услуга 3</button>
-                </a>
-        </ul>
-            </div>
-        </ul>
-            </div>
-        </ul>
-            </div>
 </body>
