@@ -11,5 +11,10 @@ nav {
     display: flex;
     align-items: center;
     margin: 10px;
-    
+
+}
+
+nav ul li {
+    display: inline; /* Выравниваем элементы списка по горизонтали */
+    margin: 0 15px; /* Отступы между элементами */
 }
