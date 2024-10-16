@@ -22,7 +22,7 @@ nav {
 }
 
 .nav-left li, .nav-right li {
-    margin: 0 200 px; /* Отступы между элементами */
+    margin: 100 15 px; /* Отступы между элементами */
 }
 
 .nav-right {
