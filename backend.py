@@ -14,7 +14,7 @@ def usluga1():
 
 @app.route("/usluga2")
 def usluga2():
-    return render_template('usuluga2.html')
+    return render_template('usluga2.html')
 
 
 
