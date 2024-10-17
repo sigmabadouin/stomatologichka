@@ -23,7 +23,17 @@ nav2 {
     padding: 5px;
     margin-left:-150px;
 
-    
+}
+
+li {
+    list-style-type:none;
+}
+
+
+.nav-text-down {
+    padding-left:30px;
+    padding: -50px;
+
 }
 
 
