@@ -29,12 +29,42 @@ li {
     list-style-type:none;
 }
 
+.imgg {
+    display: inline-flex;
+    justify-content: center;
+    padding:0;
+    list-style-type: none;
+    margin-left: -50px;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    weight: auto;
+}
+
+.padd {
+    padding-block: 108px;
+}
+
 
 .nav-text-down {
     padding-left:30px;
     padding: -50px;
+    text-align:center;
 
 }
+
+.nav-text-down_1 {
+    margin: 0 10px;
+    text-align:center;
+    padding-left:40px;
+    padding: -50px;
+    
+
+}
+
 
 
 .nav-left_text {
@@ -69,6 +99,15 @@ li {
     display: flex; /* Выравниваем элементы списка по горизонтали */
     padding-right:50px;
 }
+
+.nav-left_text_3 {
+
+    padding: 0; /* Убираем внутренние отступы */
+    display: flex; /* Выравниваем элементы списка по горизонтали */
+    padding-right:0px;
+}
+
+
 
 .nav-right {
 
