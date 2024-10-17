@@ -12,17 +12,53 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 5px;
+
     
 }
 
-.nav-left {
+nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left:-150px;
+
+    
+}
+
+
+.nav-left_text {
+
+    padding: 20px; /* Убираем внутренние отступы */
+    display: flex; /* Выравниваем элементы списка по горизонтали */
+    padding-right:30px;
+    margin-top:-100px;
+    padding-bottom:50px;
+    margin-left:50px;
+}
+
+.nav-left_phonenumber {
+
+    padding: 20px; /* Убираем внутренние отступы */
+    display: flex; /* Выравниваем элементы списка по горизонтали */
+    padding-right:30px;
+    margin-top:-160px;
+}
+
+.nav-left_logo {
 
     padding: 0; /* Убираем внутренние отступы */
     display: flex; /* Выравниваем элементы списка по горизонтали */
     padding-right:30px;
+
+}   
+
+.nav-left_text_2 {
+
+    padding: 0; /* Убираем внутренние отступы */
+    display: flex; /* Выравниваем элементы списка по горизонтали */
+    padding-right:50px;
 }
-
-
 
 .nav-right {
 

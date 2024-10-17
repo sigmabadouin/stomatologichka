@@ -3,39 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title%}{% endblock %}</title>
+    <title>Наша стоматология</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <header>
     <nav>
-        <ul class="nav-left">
-            <li><a href="{{ url_for('index') }}">Для Вас</a></li>
+        <ul class="nav-left_logo">
+            <li>
+                <a href="{{ url_for('index') }}">
+                <img src="../static/img/Логотип.svg"width="200" height="170"></a>
+            </li>
         </ul>
     <nav>
-        <ul class="nav-left">
+        <ul class="nav-left_text">
             <li><a href="{{ url_for('uslugi') }}">Наши услуги</a></li>
         </ul>
-        <ul class="nav-left">
+        <ul class="nav-left_text">
             <li><a href="{{ url_for('price_list') }}">Прайс-лист</a></li>
         </ul>
-        <ul class="nav-left">
+        <ul class="nav-left_text">
             <li><a href="{{ url_for('specialists') }}">Специалисты</a></li>
         </ul>
     </nav>
-        <ul class="nav-right">
+        <ul class="nav-left_text">
             <li><a href="tel:+79271003585">8-927-100-35-85</a></li>
         </ul>
     </nav>
     </header>
-<ul class="nav-left">
-    <h1>Стоматология Для Вас - надежные стоматологи, белоснежная улыбка</h1>
-</ul>
-<ul class="nav-left">
-    <p>Мы предлагаем комплексный подход к лечению зубов,
-        чтобы вы могли гордиться своей улыбкой и чувствовать себя уверенно в любой ситуации. 
-        Наша команда высококвалифицированных стоматологов и 
-        современное оборудование позволяют обеспечивать максимально эффективное и безопасное лечение.</p> <!-- текст про то, какие мы хорошие-->
-    </ul>
-    {% block body %}{% endblock %}
 </body>
