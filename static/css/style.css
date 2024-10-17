@@ -65,8 +65,10 @@ img {
 
 .pstn_1 {
     position: absolute;
+    width: 300px;
+    height: 350px;
     top: 444px;
-    right: 1350px;
+    right: 1250px;
 }
 
 .pstn_2 {
@@ -79,15 +81,19 @@ img {
 
 .pstn_4 {
     position: absolute;
-    top: 440px;
-    right: 720px;
+    width: 300px;
+    height: 350px;
+    top: 444px;
+    right: 850px;
 
 }
 
 .pstn_5 {
     position: absolute;
-    top: 1000px;
-    right: 2019px;
+    width: 300px;
+    height: 350px;
+    top: 444px;
+    right: 450px;
 
 }
 
