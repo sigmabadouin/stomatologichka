@@ -45,9 +45,20 @@ img {
 }
 
 .padd {
-    padding-block: 108px;
+    padding-block: 50px;
 }
 
+.ndba {
+    padding-inline:25px;
+    
+
+}
+
+.pstn {
+    position: absolute;
+    top: 250px;
+    right: 945px;
+}
 
 .nav-text-down {
     padding-left:30px;
@@ -60,7 +71,7 @@ img {
     margin: 0 10px;
     text-align:center;
     padding-left:40px;
-    padding: -50px;
+    padding-top:100px;
     
 
 }
@@ -103,8 +114,7 @@ img {
 .nav-left_text_3 {
 
     padding: 0; /* Убираем внутренние отступы */
-    display: flex; /* Выравниваем элементы списка по горизонтали */
-    padding-right:0px;
+    display: flex; /* Выравниваем элементы списка по горизонтали */ 
 }
 
 
