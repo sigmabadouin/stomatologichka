@@ -1,10 +1,13 @@
 
 
 body {
-    background-color: white;
+    background-image: url('/static/img/26095.jpg');
     margin: 0;
-    font-family: Arial, sans-serif
-    
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh; /* Занять всю высоту экрана */
+    margin: 0;
 }
 
 nav {
