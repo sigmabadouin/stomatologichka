@@ -44,20 +44,55 @@ img {
     weight: auto;
 }
 
-.padd {
+.padd { /*Смещение*/
     padding-block: 50px;
 }
 
-.ndba {
+.ndba { /*Смещение*/
     padding-inline:25px;
-    
+
 
 }
 
-.pstn {
+.cntr { /*Центрирование*/
+    text-align: start;
+
+
+}
+
+.pstn_1 {
     position: absolute;
-    top: 250px;
-    right: 945px;
+    top: 444px;
+    right: 1350px;
+}
+
+.pstn_2 {
+    position: absolute;
+    top: 336px;
+    right: 1950px;
+
+}
+
+
+.pstn_4 {
+    position: absolute;
+    top: 440px;
+    right: 720px;
+
+}
+
+.pstn_5 {
+    position: absolute;
+    top: 1000px;
+    right: 2019px;
+
+}
+
+.pstn_6 {
+    position:absolute;
+    top: 992px;
+    right: 1345px;
+
 }
 
 .nav-text-down {
