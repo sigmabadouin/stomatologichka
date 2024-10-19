@@ -37,6 +37,9 @@ def price_list():
 def specialists():
     return render_template('specialists.html')
 
+@app.route("/contactu")
+def contactu():
+    return render_template('contactu.html')
 
 if __name__ == '__main__':
         app.run(debug=True)
