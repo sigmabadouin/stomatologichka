@@ -41,6 +41,15 @@ li {
     
 }
 
+.map_pos {
+    position: absolute;
+    top:150px;
+    right:400px;
+
+}
+
+
+
 img {
     max-width: 100%;
     height: auto;
