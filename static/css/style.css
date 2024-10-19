@@ -47,15 +47,6 @@ img {
     weight: auto;
 }
 
-.padd { /*Смещение*/
-    padding-block: 50px;
-}
-
-.ndba { /*Смещение*/
-    padding-inline:25px;
-
-
-}
 
 .cntr { /*Центрирование*/
     text-align: start;
@@ -63,46 +54,22 @@ img {
 
 }
 
-.pstn_1 {
-    position: absolute;
-    width: 300px;
-    height: 350px;
-    top: 444px;
-    right: 1250px;
-}
-
-.pstn_2 {
-    position: absolute;
-    top: 336px;
-    right: 1950px;
+figure {
+    text-align: center;
 
 }
 
 
-.pstn_4 {
-    position: absolute;
-    width: 300px;
-    height: 350px;
-    top: 444px;
-    right: 850px;
 
+
+
+.img_size {
+    text-align: ;
+    display: inline-block;
+    
 }
 
-.pstn_5 {
-    position: absolute;
-    width: 300px;
-    height: 350px;
-    top: 444px;
-    right: 450px;
 
-}
-
-.pstn_6 {
-    position:absolute;
-    top: 992px;
-    right: 1389px;
-
-}
 
 .nav-text-down {
     padding-left:30px;
@@ -110,6 +77,7 @@ img {
     text-align:center;
 
 }
+
 
 .nav-text-down_1 {
     margin: 0 10px;
@@ -119,7 +87,6 @@ img {
     
 
 }
-
 
 
 .nav-left_text {
