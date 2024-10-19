@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url('/static/img/26095.jpg');
+    background-image: url('/static/img/photo_2024-10-19_19-05-39.jpg');
     margin: 0;
     font-family: Arial, sans-serif;
     background-size: cover;
@@ -74,15 +74,14 @@ figure {
 
 
 .img_size {
-    text-align: ;
+    text-align: center;
     display: inline-block;
-    
 }
 
 
 
 .nav-text-down {
-    padding-left:30px;
+    padding-left:10px;
     padding: -50px;
     text-align:center;
 
@@ -129,7 +128,7 @@ figure {
 
     padding: 0; /* Убираем внутренние отступы */
     display: flex; /* Выравниваем элементы списка по горизонтали */
-    padding-right:50px;
+    padding-right:0px;
 }
 
 .nav-left_text_3 {
@@ -164,5 +163,22 @@ ul {
 .bias {            /*Смещение*/
         padding:0px;
         margin-right:-5px;
+}
+.btn-new {
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: #d8cd32;
+    width: 200px;
+    height: 50px;
+    position: sticky;
+    margin: auto;
+   
+}
+
+.btn-new:hover {
+    -webkit-transform: rotateZ(5deg);
+    -ms-transform: rotateZ(5deg);
+    transform: rotateZ(5deg);
 }
 
