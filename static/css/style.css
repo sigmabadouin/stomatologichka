@@ -84,6 +84,7 @@ figure {
     padding-left:10px;
     padding: -50px;
     text-align:center;
+    width: 100%;
 
 }
 
@@ -113,7 +114,11 @@ figure {
     padding: 20px; /* Убираем внутренние отступы */
     display: flex; /* Выравниваем элементы списка по горизонтали */
     padding-right:30px;
-    margin-top:-160px;
+    margin-top:-100px;
+    background-color: #201601;
+    border-radius: 150px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
 }
 
 .nav-left_logo {
@@ -173,6 +178,7 @@ ul {
     height: 50px;
     position: sticky;
     margin: auto;
+    
    
 }
 
@@ -181,4 +187,27 @@ ul {
     -ms-transform: rotateZ(5deg);
     transform: rotateZ(5deg);
 }
-
+a{
+    color: #d8cd32;
+    text-decoration: none;
+}
+.t-btn {
+    display: inline-block;
+    font-family: 'Times New Roman', Arial, sans-serif;
+    border: 0 none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: 700;
+    background-image: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
