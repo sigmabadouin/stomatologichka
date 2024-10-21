@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
     background-size: cover;
     background-repeat: repeat;
-    height: 100vh; /* Занять всю высоту экрана */
+    height: 100%; /* Занять всю высоту экрана */
 }
 
 nav {
@@ -206,3 +206,34 @@ a{
     max-width: 1000px; /* Задает максимальную ширину блока текста */
     word-wrap: break-word; /* Переносит текст на новую строку при достижении максимальной ширины */
 }
+/*.text-img{
+    background: url('../img/novost-vakansiya-.jpg') no-repeat center top;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.text-img2{
+    display: none;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Segoe UI';
+  line-height: 300px;
+  text-align: center;
+  color: #fff;
+  animation: fade .5s linear forwards;
+}
+@keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.text-img:hover .text-img2 {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+    Я ХУЙ ЗНАЕТ КАК ЭТО ИСПОЛЬЗОВАТЬ
+*/ 
