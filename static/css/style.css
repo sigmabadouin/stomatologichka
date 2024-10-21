@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url('/static/img/photo_2024-10-19_19-05-39.jpg');
+    background-image: url('/static/img/проверка.jpg');
     margin: 0;
     font-family: Arial, sans-serif;
     background-size: cover;
@@ -84,6 +84,8 @@ figure {
     padding: -50px;
     text-align:center;
     width: 100%;
+    color: #241a0c
+
 
 }
 
@@ -93,7 +95,6 @@ figure {
     text-align:center;
     padding-left:40px;
     padding-top:100px;
-    
 
 }
 
@@ -114,7 +115,7 @@ figure {
     display: flex; /* Выравниваем элементы списка по горизонтали */
     padding-right:30px;
     margin-top:-100px;
-    background-color: #201601;
+    background-color: #cfb853;
     border-radius: 150px;
     -moz-border-radius: 150px;
     -webkit-border-radius: 150px;
@@ -133,6 +134,8 @@ figure {
     padding: 0; /* Убираем внутренние отступы */
     display: flex; /* Выравниваем элементы списка по горизонтали */
     padding-right:0px;
+    color: #241a0c
+    
 }
 
 .nav-left_text_3 {
@@ -172,7 +175,7 @@ ul {
     border-radius: 10px;
     color: white;
     transition: .2s linear;
-    background-color: #201601;
+    background-color: #cfb853;
     width: 200px;
     height: 50px;
     position: sticky;
@@ -186,6 +189,13 @@ ul {
     transform: rotateZ(5deg);
 }
 a{
-    color: #d8cd32;
+    color: #241a0c;
     text-decoration: none;
+    font-family: 'Times New Roman', Arial, sans-serif;
+    font-size: 25px;
+
+}
+.text-container {
+    max-width: 1000px; /* Задает максимальную ширину блока текста */
+    word-wrap: break-word; /* Переносит текст на новую строку при достижении максимальной ширины */
 }
