@@ -85,6 +85,7 @@ figure {
     text-align:center;
     width: 100%;
     color: #241a0c
+    
 
 
 }
@@ -115,7 +116,7 @@ figure {
     display: flex; /* Выравниваем элементы списка по горизонтали */
     padding-right:30px;
     margin-top:-100px;
-    background-color: #cfb853;
+    background-color: #c9a778;
     border-radius: 150px;
     -moz-border-radius: 150px;
     -webkit-border-radius: 150px;
@@ -173,13 +174,17 @@ ul {
 }
 .btn-new {
     border-radius: 10px;
-    color: white;
     transition: .2s linear;
-    background-color: #cfb853;
-    width: 200px;
+    background-color: #c9a778;
+    width: 250px;
     height: 50px;
     position: sticky;
-    margin: 10px auto
+    margin: 10px auto;
+    color: #221a0f;
+    text-decoration: none;
+    font-family: 'Times New Roman', Arial, sans-serif;
+    font-size: 25px;
+    padding: 10px;
     
 }
 
