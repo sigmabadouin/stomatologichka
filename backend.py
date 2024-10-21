@@ -28,14 +28,10 @@ def uslugi():
     return render_template('nashi_uslugi.html')
 
 
-@app.route("/price_list")
-def price_list():
-    return render_template('price_list.html')
-
-
 @app.route("/specialists")
 def specialists():
     return render_template('specialists.html')
+
 
 @app.route("/contactu")
 def contactu():
