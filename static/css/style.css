@@ -78,6 +78,15 @@ figure {
     width: 400px;
     height: 250px;
 }
+.img-text{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 250px;
+    border: 4px solid #221a0f;
+}
 
 
 
@@ -90,6 +99,13 @@ figure {
     
 
 
+}
+
+.nav-text-prem{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
 }
 
 
@@ -137,7 +153,8 @@ figure {
     padding: 0; /* Убираем внутренние отступы */
     display: flex; /* Выравниваем элементы списка по горизонтали */
     padding-right:0px;
-    color: #241a0c
+    color: #241a0c;
+    max-width: auto;
     
 }
 
@@ -146,6 +163,7 @@ figure {
     padding: 0; /* Убираем внутренние отступы */
     display: flex; /* Выравниваем элементы списка по горизонтали */ 
 }
+
 
 
 .nav-right {
@@ -205,6 +223,7 @@ a{
     max-width: 1000px; /* Задает максимальную ширину блока текста */
     word-wrap: break-word; /* Переносит текст на новую строку при достижении максимальной ширины */
 }
+
 /*.text-img{
     background: url('../img/novost-vakansiya-.jpg') no-repeat center top;
     height: 300px;
@@ -235,33 +254,5 @@ a{
     cursor: pointer;
   }
     Я ХУЙ ЗНАЕТ КАК ЭТО ИСПОЛЬЗОВАТЬ
-*/
+*/ 
 
-.menu-btn {
-    display: inline-block;
-    cursor: pointer;
-    width: 30px;
-    height: 25px;
-    position: relative;
-}
-
-.menu-btn div {
-    width: 100%;
-    height: 4px;
-    background-color: black;
-    margin: 5px 0;
-    transition: all 0.3s ease;
-}
-
-
-.menu {
-    display: none;
-    list-style-type: none;
-    padding: 0;
-    margin: 10px 0;
-}
-
-
-.menu-btn.active + .menu {
-    display: block;
-}
