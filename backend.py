@@ -38,14 +38,16 @@ def contactu():
     return render_template('contactu.html')
 
 
-@app.route("/m")
-def mversion():
-    return render_template('mobileversion.html')
-
-
 @app.route("/photo")
 def photo():
     return render_template('photo.html')
+
+
+@app.route("/m")
+def mversion():
+    return render_template('mobileversion_base.html')
+
+
 
 if __name__ == '__main__':
         app.run(debug=True)

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylemobile.css') }}">
+</head>
+
+<body>
+<header>
+    <li>
+        <a href="{{ url_for('mversion') }}">
+        <img src="../static/img/Логотип.jpg" width="200" height="170"></a>
+    </li>
+
+<div class="menu-btn" onclick="toggleMenu(this)">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+    <ul class="menu">
+      <li><a href="uslugim.html">Наши услуги</a></li>
+      <li><a href="specialistsm.html">Специалисты</a></li>
+      <li><a href="contactum.html">Контакты</a></li>
+      <li><a href="photosm.html">Наши фото</a></li>
+    </ul>
+<script src="../static/js/buttons.js"></script>
+</header>
+{% block body %}
+{% endblock %}
+</body>
+</html>
