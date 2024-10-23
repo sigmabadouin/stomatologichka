@@ -17,6 +17,14 @@ body {
 }
 
 
+.nav-left_logo {
+
+    padding: 0px; /* Убираем внутренние отступы */
+    display: flex; /* Выравниваем элементы списка по горизонтали */
+    padding-left: 50px;
+
+}
+
 .menu-btn div {
     width: 100%;
     height: 4px;
