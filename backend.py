@@ -37,5 +37,10 @@ def specialists():
 def contactu():
     return render_template('contactu.html')
 
+@app.route("/m")
+def mversion():
+    return render_template('mobileversion.html')
+
+
 if __name__ == '__main__':
         app.run(debug=True)
