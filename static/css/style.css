@@ -80,9 +80,12 @@ figure {
 }
 .img-text{
     text-align: center;
-    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 350px;
     height: 250px;
+    border: 4px solid #221a0f;
 }
 
 
@@ -96,6 +99,13 @@ figure {
     
 
 
+}
+
+.nav-text-prem{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
 }
 
 
@@ -143,7 +153,8 @@ figure {
     padding: 0; /* Убираем внутренние отступы */
     display: flex; /* Выравниваем элементы списка по горизонтали */
     padding-right:0px;
-    color: #241a0c
+    color: #241a0c;
+    max-width: auto;
     
 }
 
