@@ -9,24 +9,26 @@
 
 <body>
 <header>
+    <ul>
     <li class="nav-left_logo">
         <a href="{{ url_for('mversion') }}">
         <img src="../static/img/Логотип.jpg" width="200" height="170"></a>
     </li>
-
-
 <div class="menu-btn" onclick="toggleMenu(this)">
   <div></div>
   <div></div>
   <div></div>
 </div>
+    </ul>
     <ul class="menu">
       <li><a href="uslugim.html">Наши услуги</a></li>
       <li><a href="specialistsm.html">Специалисты</a></li>
       <li><a href="contactum.html">Контакты</a></li>
       <li><a href="photosm.html">Наши фото</a></li>
     </ul>
+</ul>
 <script src="../static/js/buttons.js"></script>
+
 </header>
 {% block body %}
 {% endblock %}

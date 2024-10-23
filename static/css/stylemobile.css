@@ -14,6 +14,7 @@ body {
     width: 30px;
     height: 25px;
     position: relative;
+    padding-left: 170px;
 }
 
 
@@ -21,7 +22,13 @@ body {
 
     padding: 0px; /* Убираем внутренние отступы */
     display: flex; /* Выравниваем элементы списка по горизонтали */
-    padding-left: 50px;
+    padding-left: 100px;
+
+}
+
+.img-text {
+    align-items: auto;
+    display: block;
 
 }
 
@@ -40,6 +47,18 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 10px 0;
+}
+
+
+.menu li {
+    display: inline-block; /* Выравниваем элементы меню в строку */
+    margin: 10px; /* Отступы между элементами */
+}
+
+
+.menu a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: black; /* Цвет текста */
 }
 
 
