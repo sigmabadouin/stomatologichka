@@ -78,6 +78,12 @@ figure {
     width: 400px;
     height: 250px;
 }
+.img-text{
+    text-align: center;
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+}
 
 
 
@@ -206,6 +212,7 @@ a{
     max-width: 1000px; /* Задает максимальную ширину блока текста */
     word-wrap: break-word; /* Переносит текст на новую строку при достижении максимальной ширины */
 }
+
 /*.text-img{
     background: url('../img/novost-vakansiya-.jpg') no-repeat center top;
     height: 300px;
@@ -237,3 +244,4 @@ a{
   }
     Я ХУЙ ЗНАЕТ КАК ЭТО ИСПОЛЬЗОВАТЬ
 */ 
+
