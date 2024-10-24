@@ -7,30 +7,16 @@ body {
     height: 100%; /* Занять всю высоту экрана */
 }
 
-
+/*для кнопки меню*/
 .menu-btn {
     display: inline-block;
     cursor: pointer;
     width: 30px;
     height: 25px;
     position: relative;
-    padding-left: 130px;
+    padding-left: 140px;
 }
 
-
-.nav-left_logo {
-
-    padding: 0px; /* Убираем внутренние отступы */
-    display: flex; /* Выравниваем элементы списка по горизонтали */
-    padding-left: 60px;
-
-}
-
-.img-text {
-    align-items: auto;
-    display: block;
-
-}
 
 .menu-btn div {
     width: 100%;
@@ -50,9 +36,39 @@ body {
 }
 
 
-
-
-/* Отображение меню при нажатии */
 .menu-btn.active + .menu {
     display: block;
+}
+
+
+/*для логотипа*/
+
+
+.nav-left_logo {
+
+    padding: 0px; /* Убираем внутренние отступы */
+    display: flex; /* Выравниваем элементы списка по горизонтали */
+    padding-left: 60px;
+
+}
+
+/*для текста на главной*/
+
+.nav-text-down {
+    padding-left:13px;
+    padding: -50px;
+    text-align:left;
+    width: 100%;
+    color: #241a0c
+
+}
+
+.nav-left_text_2 {
+
+    padding: 0px; /* Убираем внутренние отступы */
+    display: flex; /* Выравниваем элементы списка по горизонтали */
+    padding-left: 10px;
+    color: #241a0c;
+    max-width: auto;
+
 }

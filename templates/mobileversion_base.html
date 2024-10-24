@@ -11,7 +11,7 @@
 <header>
     <ul>
     <li class="nav-left_logo">
-        <a href="{{ url_for('mversion') }}">
+        <a href="{{ url_for('mvindex') }}">
         <img src="../static/img/Логотип.jpg" width="200" height="170"></a>
     </li>
 <div class="menu-btn" onclick="toggleMenu(this)">
@@ -19,18 +19,14 @@
   <div></div>
   <div></div>
 </div>
-
     <ul class="menu">
-      <li><a href="uslugim.html">Наши услуги</a></li>
-      <li><a href="specialistsm.html">Специалисты</a></li>
-      <li><a href="contactum.html">Контакты</a></li>
-      <li><a href="photosm.html">Наши фото</a></li>
+      <li><a href="{{ url_for('muslugi') }}">Наши услуги</a></li>
+      <li><a href="{{ url_for('mspecialists') }}">Специалисты</a></li>
+      <li><a href="{{ url_for('mcontactu') }}">Контакты</a></li>
+      <li><a href="{{ url_for('mphoto') }}">Наши фото</a></li>
       <script src="../static/js/buttons.js"></script>
     </ul>
-
-</ul>
-
-
+    </ul>
 </header>
 {% block body %}
 {% endblock %}

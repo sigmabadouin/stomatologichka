@@ -44,9 +44,28 @@ def photo():
 
 
 @app.route("/m")
-def mversion():
-    return render_template('mobileversion_base.html')
+def mvindex():
+    return render_template('mindex.html')
 
+
+@app.route("/muslugi")    
+def muslugi():
+    return render_template('muslugi.html')
+
+
+@app.route("/mphoto")    
+def mphoto():
+    return render_template('mphoto.html')
+
+
+@app.route("/mcontactu")    
+def mcontactu():
+    return render_template('mcontactu.html')
+
+
+@app.route("/mspecialists")    
+def mspecialists():
+    return render_template('mspecialists.html')
 
 
 if __name__ == '__main__':
