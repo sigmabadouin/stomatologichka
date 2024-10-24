@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
     background-size: cover;
     background-repeat: repeat;
-    height: 100%; /* Занять всю высоту экрана */
+    height: 100vh; /* Занять всю высоту экрана */
 }
 
 nav {
@@ -42,9 +42,8 @@ li {
 
 .map_pos {
     position: absolute;
-    top:150px;
-    right:400px;
-
+    top:650px;
+    right: 400px;
 }
 
 
@@ -111,6 +110,12 @@ figure {
     text-align: center;
 }
 
+.text-container {
+    max-width: 350px; /* Задает максимальную ширину блока текста */
+    word-wrap: break-word; /* Переносит текст на новую строку при достижении максимальной ширины */
+    margin-left: 30px;
+    margin-top: auto;
+}
 
 .nav-text-down_1 {
     margin: 0 10px;
@@ -222,10 +227,7 @@ a{
     font-size: 25px;
 
 }
-.text-container {
-    max-width: 1000px; /* Задает максимальную ширину блока текста */
-    word-wrap: break-word; /* Переносит текст на новую строку при достижении максимальной ширины */
-}
+
 
 /*.text-img{
     background: url('../img/novost-vakansiya-.jpg') no-repeat center top;
