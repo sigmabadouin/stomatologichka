@@ -55,7 +55,7 @@ body {
 /*для текста на главной*/
 
 .nav-text-down {
-    padding-left:10px;
+    padding-left:13px;
     padding: -50px;
     text-align:left;
     width: 100%;
@@ -65,9 +65,9 @@ body {
 
 .nav-left_text_2 {
 
-    padding: 0; /* Убираем внутренние отступы */
+    padding: 0px; /* Убираем внутренние отступы */
     display: flex; /* Выравниваем элементы списка по горизонтали */
-    padding-right:0px;
+    padding-left: 10px;
     color: #241a0c;
     max-width: auto;
 
