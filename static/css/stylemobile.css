@@ -31,10 +31,16 @@ body {
 .menu {
     display: none;
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
+    padding-left: 20px;
     margin: 10px 0;
+    justify-items: flex-start;
 }
 
+.menu li {
+    display: inline;
+
+}
 
 .menu-btn.active + .menu {
     display: block;
@@ -68,6 +74,17 @@ body {
     padding: 0px; /* Убираем внутренние отступы */
     display: flex; /* Выравниваем элементы списка по горизонтали */
     padding-left: 10px;
+    color: #241a0c;
+    max-width: auto;
+
+}
+
+.nav-left_text_4 {
+
+    padding: 5px; /* Убираем внутренние отступы */
+    display: flex; /* Выравниваем элементы списка по горизонтали */
+    padding-right: 35px;
+    margin-left: -32px;
     color: #241a0c;
     max-width: auto;
 
