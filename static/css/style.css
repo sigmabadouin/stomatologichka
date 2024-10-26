@@ -199,7 +199,7 @@ ul {
         padding:0px;
         margin-right:-5px;
 }
-.btn-new {
+.btn-First {
     border-radius: 10px;
     transition: .2s linear;
     background-color: #c9a778;
@@ -215,7 +215,7 @@ ul {
     
 }
 
-.btn-new:hover {
+.btn-First:hover {
     -webkit-transform: rotateZ(5deg);
     -ms-transform: rotateZ(5deg);
     transform: rotateZ(5deg);
@@ -260,4 +260,20 @@ a{
   }
     Я ХУЙ ЗНАЕТ КАК ЭТО ИСПОЛЬЗОВАТЬ
 */ 
+.btn-Second {
+    border-radius: 10px;
+    color: #221a0f;
+    transition: .2s linear;
+    background: #c9a778;
+    width: 200px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-family: 'Times New Roman', Arial, sans-serif;
+    font-size: 17px;
+}
 
+.btn-Second:hover {
+    box-shadow: 0 0 0 2px #241a0c, 0 0 0 4px #927b5a;
+}
