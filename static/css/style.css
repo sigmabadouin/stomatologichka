@@ -227,6 +227,7 @@ a{
     word-wrap: break-word; /* Переносит текст на новую строку при достижении максимальной ширины */
 }
 
+
 /*.text-img{
     background: url('../img/novost-vakansiya-.jpg') no-repeat center top;
     height: 300px;
@@ -257,5 +258,97 @@ a{
     cursor: pointer;
   }
     Я ХУЙ ЗНАЕТ КАК ЭТО ИСПОЛЬЗОВАТЬ
-*/ 
+*/
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav2 {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .nav-left_text, .nav-left_phonenumber {
+        flex-direction: column;
+        align-items: center;
+        margin: 5px 0;
+        margin-left: -25px;
+    }
+
+    .nav-left_text_2 {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .img-text {
+        max-width: 300px;
+        height: auto;
+    }
+
+    .btn-new {
+        font-size: 16px;
+        max-width: 200px;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .bias {
+        padding: 0px;
+        margin-right: 0px;
+    }
+    .h2 {
+        text-align: center;
+        padding:5px;
+        margin-right:15px;
+    }
+    .nav-left_logo {
+        padding: 0;
+        display: flex;
+        padding-right: 15px;
+    }
+    .map_pos {
+        position: relative;
+
+    }
+
+    iframe {
+        width: 540px;
+        height: 500px;
+        margin-left: 420px;
+    }
+}
+
+/* Медиазапросы для устройств с еще меньшими экранами */
+@media (max-width: 480px) {
+    .nav-left_text_2, .nav-text-down {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .img-text {
+        max-width: 250px;
+    }
+
+    .btn-new {
+        font-size: 14px;
+        max-width: 180px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    iframe {
+        width: 360px;
+        height: 460px;
+        margin-left: 420px;
+    }
+
+    .mobile {
+        margin-left: -35px;
+    }
+}
 

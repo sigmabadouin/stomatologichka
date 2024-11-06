@@ -7,6 +7,10 @@ body {
     height: 100%; /* Занять всю высоту экрана */
 }
 
+li {
+    list-style-type: none;
+}
+
 /*для кнопки меню*/
 .menu-btn {
     display: inline-block;
@@ -87,5 +91,22 @@ body {
     margin-left: -32px;
     color: #241a0c;
     max-width: auto;
+
+}
+
+.nav-left_text_5 {
+    padding: 0px;
+    display: flex;
+    padding-left: 25px;
+    color: #241a0c;
+    max-width: auto;
+
+}
+
+.nav-left_text_6 {
+    padding: 0px;
+    margin-left: -30px;
+    color: #241a0c;
+
 
 }
