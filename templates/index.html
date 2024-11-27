@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Стоматология "Для Вас"</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -12,7 +15,7 @@
             <ul class="nav-left_logo">
                 <li>
                     <a href="{{ url_for('index') }}">
-                    <img src="../static/img/Логотип.jpg" width="200" height="170"></a>
+                    <img src="../static/img/icone1.jpg" width="200" height="170"></a>
                 </li>
             </ul>
         <nav2>
@@ -30,7 +33,7 @@
             </ul>
         </nav2>
             <ul class="nav-left_phonenumber">
-                <li><a href="tel:+79271472947">8-927-147-29-47</a></li>
+                <a class ="playfair-display-sc-black" href="tel:+79271472947">8-927-147-29-47</a>
             </ul>
         </nav>
     </header>
