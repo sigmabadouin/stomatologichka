@@ -3,51 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Стоматология "Для Вас"</title>
+    <title>Стоматология Для Вас</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="nav-left_logo">
-                <li>
-                    <a href="{{ url_for('index') }}">
-                    <img src="../static/img/Логотип.jpg" width="200" height="170"></a>
-                </li>
-            </ul>
-        <nav2>
-            <ul class="nav-left_text">
-                <li><a href="{{ url_for('uslugi') }}">Наши услуги</a></li>
-            </ul>
-            <ul class="nav-left_text">
-                <li><a href="{{ url_for('specialists') }}">Специалисты</a></li>
-            </ul>
-            <ul class="nav-left_text">
-                <li><a href="{{ url_for('contactu') }}">Контакты</a></li>
-            </ul>
-            <ul class="nav-left_text">
-                <li><a href="{{ url_for('photo') }}">Наши фото</a></li>
-            </ul>
-        </nav2>
-            <ul class="nav-left_phonenumber">
-                <li><a href="tel:+79271472947">8-927-147-29-47</a></li>
-            </ul>
-        </nav>
+        <a href="{{ url_for('index') }}">
+        <img src="../static/img/логотип svg.svg" width="109" height="120"></a>    
+            <h1>Стоматология Для Вас</h1>
+        <img src="../static/img/Обозначение карты.svg" width="23" height="25">
+            <h6>г. Балаково ул. 30 лет победы, 13</h6>
+            <small>Показать на карте</small>
+        <img src="../static/img/Иконка телефона №2.svg" width="16" height="33">
+            <h6>+7 (929)-147-29-47</h6>
+            <small>Alla.Kostenko80@mail.ru</small>
+        <img src="../static/img/Иконка календаря.svg" width="26" height="25">
+            <h6>Пн-Пт: 8:00-20:00</h6>
+            <h6>Сб: 9:00-15:00</h6>
+            <h6>Вс: выходной</h6>
+        <button class="button">Записаться онлайн</button>
+        <div class="header-line"></div>
+        <div>
+            <img src="../static/img/логотип svg.svg" width="55" height="52"> 
+                <h6>Стоматология для Вас</h6>
+            <a href="">Услуги</a>
+            <a href="">Команда</a>
+            <a href="">Цены</a>
+            <a href="">Оборудование</a>
+            <a href="">Документы</a>
+            <a href="">Новости</a>
+            <a href="">Отзывы</a>
+        </div>
     </header>
-<div>
-    <ul class="nav-left_text_2">
-        <h1>Стоматология Для Вас - надежные стоматологи, белоснежная улыбка</h1>
-    </ul>
-    <ul class="nav-text-down">
-        <p>Мы предлагаем комплексный подход к лечению зубов,
-            чтобы вы могли гордиться своей улыбкой и чувствовать себя уверенно в любой ситуации. 
-            Наша команда высококвалифицированных стоматологов и 
-            современное оборудование позволяют обеспечивать максимально эффективное и безопасное лечение.</p> <!-- текст про то, какие мы хорошие-->
-    </ul>
-</div>
-<ul class="nav-left_text_2">
-    <h1>Почему выбирают именно нас</h1>
-</ul>
+    <section>
+        <div>
+            <div>
+                <p>Мы предлагаем комплексный подход к лечению зубов, чтобы вы могли гордиться своей улыбкой и чувствовать себя уверенно в любой ситуации. Наша команда высококвалифицированных стоматологов и современное оборудование позволяют обеспечивать максимально эффективное и безопасное лечение.</p>
+                <button class="button">Записаться онлайн</button>
+            </div>
+            <div>
+                <img src="../static/img/ресепшн.svg">
+            </div>
+        </div>
+    </section>
+<section>
+    <img src="../static/img/логотип svg.svg" width="70" height="67">
+    <h1>Услуги</h1>
+    <div>
+        <div>
+            <img src="../static/img/Костенко Алла.svg" alt="доктор 1">
+        </div>
+        <div>
+            <img src="../static/img/Соколов Василий.svg" alt="доктор 2">
+        </div>
+        <div>
+            <img src="../static/img/Храмова Наталья.svg" alt="доктор 3">
+        </div>
+        <div>
+            <img src="../static/img/Шаврова Наталья.svg" alt="доктор 4">
+        </div>
+        <div>
+            <img src="../static/img/Костенко Екатерина.svg" alt="доктор 5">
+        </div>
+        <div>
+            <img src="../static/img/Наталья.svg" alt="доктор 5">
+        </div>
+    </div>
+</section>
 <ul class="nav-left_text_2">
     <div class="nav-text-prem text-container">
         <li><h3>Высококвалифицированные специалисты</h3></li>

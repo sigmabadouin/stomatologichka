@@ -277,3 +277,6 @@ a{
 .btn-Second:hover {
     box-shadow: 0 0 0 2px #241a0c, 0 0 0 4px #927b5a;
 }
+.header-line {
+    border-top: 1px solid #241a0c;
+}
